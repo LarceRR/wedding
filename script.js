@@ -11,7 +11,6 @@ if (prefersReducedMotion || !("IntersectionObserver" in window)) {
   let revealObserver;
 
   try {
-    document.documentElement.classList.add("reveal-ready");
     revealObserver = new IntersectionObserver(
       (entries, observer) => {
         observerResponded = true;
@@ -29,12 +28,10 @@ if (prefersReducedMotion || !("IntersectionObserver" in window)) {
     // If the observer never calls back, fail open instead of leaving sections hidden.
     window.setTimeout(() => {
       if (observerResponded) return;
-      document.documentElement.classList.remove("reveal-ready");
       revealAll();
       revealObserver.disconnect();
     }, 2500);
   } catch (error) {
-    document.documentElement.classList.remove("reveal-ready");
     revealAll();
   }
 }
