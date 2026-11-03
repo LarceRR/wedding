@@ -3,62 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="The Quiet Garden — свадебное приглашение Анны и Михаила"
-    />
-    <title>The Quiet Garden | Анна & Михаил</title>
+    <meta name="theme-color" content="#f7f5ef" />
+    <meta name="description" content="The Quiet Garden — свадебное приглашение Анны и Михаила. 19 сентября 2026 года." />
+    <title>The Quiet Garden — Анна и Михаил</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#hero" aria-label="Главная">A & M</a>
+        <a class="brand" href="#hero" aria-label="The Quiet Garden — на главную">A <span>&</span> M</a>
         <nav class="main-nav" aria-label="Основная навигация">
-          <a href="#invitation">About</a>
-          <a href="#schedule">The Day</a>
-          <a href="#location">Location</a>
-          <a href="#rsvp">RSVP</a>
+          <a href="#invitation">Приглашение</a>
+          <a href="#schedule">Программа</a>
+          <a href="#location">Место</a>
+          <a href="#dresscode">Дресс-код</a>
+          <a href="#rsvp">Ответить</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section id="hero" class="section hero reveal">
+      <section id="hero" class="section hero">
         <div class="hero-image" aria-hidden="true"></div>
-        <div class="hero-backdrop"></div>
+        <div class="hero-backdrop" aria-hidden="true"></div>
         <div class="container hero-content">
-          <p class="numbering">01 / 08</p>
-          <div class="hero-text">
-            <p class="eyebrow">19 сентября 2026</p>
-            <h1>Анна <span>&amp;</span> Михаил</h1>
-            <p class="tagline">Мы будем счастливы разделить этот день с вами</p>
+          <div class="hero-topline">
+            <span>01 / 08</span>
+            <span>The Quiet Garden · Wedding invitation</span>
+          </div>
+          <div class="hero-copy">
+            <p class="hero-date">19 сентября 2026 <span>·</span> Окская долина</p>
+            <h1>Анна <span class="hero-amp">&</span> Михаил</h1>
+            <p class="hero-tagline">Приглашаем вас разделить с нами этот день</p>
+          </div>
+          <div class="hero-bottom">
+            <span>История одного счастливого дня</span>
+            <a class="scroll-cue" href="#invitation" aria-label="Перейти к приглашению">
+              <span>Листайте ниже</span><span class="scroll-arrow" aria-hidden="true">↓</span>
+            </a>
+            <span>Москва · 2026</span>
           </div>
         </div>
       </section>
 
       <section id="invitation" class="section invitation reveal">
         <div class="container invite-shell">
-          <div class="ornament ornament-left" aria-hidden="true">
-            <img class="botanical botanical-left" src="assets/botanical-branch.png" alt="" />
-          </div>
+          <aside class="invite-aside" aria-hidden="true">
+            <p class="numbering">02 <span>—</span> Приглашение</p>
+            <img class="botanical" src="assets/botanical-branch.png" alt="" />
+          </aside>
           <div class="invite-copy">
-            <p class="numbering">02 / 08</p>
-            <h2>Наша история продолжается</h2>
-            <p>
-              Есть дни, которые хочется разделить с самыми близкими. Мы будем
-              счастливы видеть вас рядом и вместе создать воспоминания, которые
-              останутся с нами надолго.
-            </p>
-          </div>
-          <div class="ornament ornament-right" aria-hidden="true">
-            <img class="botanical botanical-right" src="assets/botanical-branch.png" alt="" />
+            <p class="eyebrow">Дорогие наши</p>
+            <h2>Этот день станет особенным благодаря вам</h2>
+            <p>Есть моменты, которые хочется разделить с самыми близкими. Мы будем счастливы видеть вас рядом, смеяться, обниматься и вместе создавать воспоминания, к которым захочется возвращаться.</p>
+            <p class="invite-signature">С теплом, Анна и Михаил</p>
           </div>
         </div>
       </section>
@@ -66,87 +67,60 @@
       <section id="schedule" class="section schedule reveal">
         <div class="container schedule-shell">
           <div class="section-header">
-            <p class="numbering">03 / 08</p>
-            <h2>День, который мы будем помнить</h2>
+            <div class="section-heading">
+              <p class="numbering">03 <span>—</span> План дня</p>
+              <h2>Время быть вместе</h2>
+            </div>
+            <p class="section-note">Четыре момента одного большого праздника. Будем рады провести каждый из них вместе с вами.</p>
           </div>
-
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="time">15:30</div>
-              <div class="event-line"></div>
-              <div class="event-copy">
-                <h3>Сбор гостей</h3>
-                <p>Приветствие в саду и первые тосты.</p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="time">16:00</div>
-              <div class="event-line"></div>
-              <div class="event-copy">
-                <h3>Церемония</h3>
-                <p>Венчание под аркой из зелени и света.</p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="time">18:00</div>
-              <div class="event-line"></div>
-              <div class="event-copy">
-                <h3>Праздничный ужин</h3>
-                <p>Тёплый вечер за столом в оранжерее.</p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="time">21:00</div>
-              <div class="event-line"></div>
-              <div class="event-copy">
-                <h3>Вечерняя программа</h3>
-                <p>Музыка, танцы и тёплые слова.</p>
-              </div>
-            </div>
-          </div>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <time class="time" datetime="15:30">15:30</time>
+              <span class="event-line" aria-hidden="true"></span>
+              <div class="event-copy"><h3>Встреча гостей</h3><p>Знакомимся, обнимаемся и настраиваемся на праздник.</p></div>
+            </li>
+            <li class="timeline-item">
+              <time class="time" datetime="16:00">16:00</time>
+              <span class="event-line" aria-hidden="true"></span>
+              <div class="event-copy"><h3>Церемония</h3><p>Самые важные слова под аркой в саду.</p></div>
+            </li>
+            <li class="timeline-item">
+              <time class="time" datetime="18:00">18:00</time>
+              <span class="event-line" aria-hidden="true"></span>
+              <div class="event-copy"><h3>Праздничный ужин</h3><p>Вкусная еда, тёплые тосты и близкие люди за одним столом.</p></div>
+            </li>
+            <li class="timeline-item">
+              <time class="time" datetime="21:00">21:00</time>
+              <span class="event-line" aria-hidden="true"></span>
+              <div class="event-copy"><h3>Вечер</h3><p>Музыка, танцы и истории, которые останутся с нами.</p></div>
+            </li>
+          </ol>
         </div>
       </section>
 
       <section id="location" class="section location reveal">
         <div class="container location-shell">
           <div class="location-copy">
-            <p class="numbering">04 / 08</p>
-            <h2>Место проведения</h2>
-            <p class="location-label">«Rosewood Manor»</p>
-            <p class="location-address">
-              Садовое поместье, 27<br />
-              Окская долина, Московская область
-            </p>
-            <p>
-              Деревянная резиденция среди старых яблонь, мягкого света и тишины.
-              Здесь начнётся наша история на фоне зелёного сада и спокойной европейской
-              атмосферы.
-            </p>
-            <div class="location-detail-photos">
-              <figure>
-                <img src="assets/flowers.png" alt="Белые садовые розы в керамической вазе" />
-                <figcaption>Садовые розы</figcaption>
-              </figure>
-              <figure>
-                <img src="assets/wedding-details.png" alt="Детали свадебного стола" />
-                <figcaption>Детали нашего дня</figcaption>
-              </figure>
-            </div>
+            <p class="numbering">04 <span>—</span> Место встречи</p>
+            <p class="eyebrow">Там, где начинается наш день</p>
+            <h2>Rosewood Manor</h2>
+            <p class="location-address">Садовое поместье, 27<br />Окская долина, Московская область</p>
+            <p class="location-description">Деревянная резиденция среди старых яблонь, мягкого света и тишины. Здесь мы соберём самых близких, чтобы провести этот день в атмосфере спокойствия и уюта.</p>
+            <a class="text-link" href="https://maps.google.com/?q=Окская+долина+Московская+область" target="_blank" rel="noreferrer">Посмотреть маршрут <span aria-hidden="true">↗</span></a>
           </div>
-
           <div class="location-visual">
-            <img
-              src="assets/venue-manor.png"
-              alt="Загородная усадьба среди зелёного сада"
-            />
-            <div class="map-card" aria-label="Схематическая карта маршрута">
-              <div class="map-art">
-                <img class="map-background" src="assets/garden-map.png" alt="" />
-              </div>
-            </div>
+            <figure class="location-main-image">
+              <img src="assets/venue-manor.png" alt="Загородная усадьба среди зелёного сада" loading="lazy" />
+              <figcaption>Rosewood Manor · Окская долина</figcaption>
+            </figure>
+            <figure class="location-detail-image">
+              <img src="assets/garden-map.png" alt="Иллюстрированная схема сада" loading="lazy" />
+              <figcaption>Территория поместья</figcaption>
+            </figure>
+            <figure class="location-detail-image">
+              <img src="assets/wedding-details.png" alt="Детали оформления свадебного стола" loading="lazy" />
+              <figcaption>Атмосфера нашего дня</figcaption>
+            </figure>
           </div>
         </div>
       </section>
@@ -154,42 +128,20 @@
       <section id="dresscode" class="section dresscode reveal">
         <div class="container dress-shell">
           <div class="dress-copy">
-            <p class="numbering">05 / 08</p>
-            <h2>Цветовая история нашего дня</h2>
-            <p>
-              Будем благодарны, если вы поддержите атмосферу нашего праздника в
-              природных, спокойных оттенках.
-            </p>
+            <p class="numbering">05 <span>—</span> Детали</p>
+            <p class="eyebrow">Будем благодарны за поддержку настроения</p>
+            <h2>Цвета нашего сада</h2>
+            <p>Нам близки природные, спокойные оттенки. Будем рады, если вы вдохновитесь этой палитрой при выборе образа. Это пожелание, а не строгое правило.</p>
           </div>
-
-          <div class="swatches-panel">
-            <div class="swatch-item">
-              <span class="swatch deep-emerald"></span>
-              <span>Deep Emerald</span>
-            </div>
-            <div class="swatch-item">
-              <span class="swatch sage"></span>
-              <span>Sage Green</span>
-            </div>
-            <div class="swatch-item">
-              <span class="swatch olive"></span>
-              <span>Olive</span>
-            </div>
-            <div class="swatch-item">
-              <span class="swatch champagne"></span>
-              <span>Champagne</span>
-            </div>
-            <div class="swatch-item">
-              <span class="swatch ivory"></span>
-              <span>Warm Ivory</span>
-            </div>
-          </div>
-
-          <div class="dress-photo">
-            <img
-              src="assets/dress-code.png"
-              alt="Палитра тканей и аксессуаров для свадьбы"
-            />
+          <figure class="dress-photo">
+            <img src="assets/dress-code.png" alt="Палитра тканей и аксессуаров в природных оттенках" loading="lazy" />
+          </figure>
+          <div class="swatches-panel" aria-label="Палитра дресс-кода">
+            <div class="swatch-item"><span class="swatch deep-emerald" aria-hidden="true"></span><span>Deep emerald</span></div>
+            <div class="swatch-item"><span class="swatch sage" aria-hidden="true"></span><span>Sage</span></div>
+            <div class="swatch-item"><span class="swatch olive" aria-hidden="true"></span><span>Olive</span></div>
+            <div class="swatch-item"><span class="swatch champagne" aria-hidden="true"></span><span>Champagne</span></div>
+            <div class="swatch-item"><span class="swatch ivory" aria-hidden="true"></span><span>Warm ivory</span></div>
           </div>
         </div>
       </section>
@@ -197,19 +149,24 @@
       <section id="gallery" class="section gallery reveal">
         <div class="container gallery-shell">
           <div class="section-header">
-            <p class="numbering">06 / 08</p>
-            <h2>Моменты, которые хочется сохранить</h2>
+            <div class="section-heading">
+              <p class="numbering">06 <span>—</span> Воспоминания</p>
+              <h2>Немного о нас</h2>
+            </div>
+            <p class="section-note">Несколько мгновений нашей истории. Совсем скоро в ней появится ещё одна важная дата.</p>
           </div>
-
           <div class="gallery-grid">
-            <button class="gallery-item" data-image="assets/gallery-walking.png" aria-label="Открыть фото прогулки пары">
-              <img src="assets/gallery-walking.png" alt="Прогулка по садовой дорожке" />
+            <button class="gallery-item gallery-item-featured" type="button" data-image="assets/gallery-walking.png" aria-label="Открыть фотографию прогулки по саду">
+              <img src="assets/gallery-walking.png" alt="Анна и Михаил гуляют по садовой дорожке" loading="lazy" />
+              <span class="gallery-caption">Вместе — куда угодно</span>
             </button>
-            <button class="gallery-item" data-image="assets/gallery-bouquet.png" aria-label="Открыть фото букета">
-              <img src="assets/gallery-bouquet.png" alt="Руки и букет" />
+            <button class="gallery-item" type="button" data-image="assets/gallery-bouquet.png" aria-label="Открыть фотографию букета">
+              <img src="assets/gallery-bouquet.png" alt="Букет в руках" loading="lazy" />
+              <span class="gallery-caption">Маленькие детали</span>
             </button>
-            <button class="gallery-item" data-image="assets/gallery-candid.png" aria-label="Открыть естественный кадр пары">
-              <img src="assets/gallery-candid.png" alt="Естественный эмоциональный кадр пары" />
+            <button class="gallery-item" type="button" data-image="assets/gallery-candid.png" aria-label="Открыть фотографию пары">
+              <img src="assets/gallery-candid.png" alt="Естественный момент из жизни пары" loading="lazy" />
+              <span class="gallery-caption">Самые настоящие моменты</span>
             </button>
           </div>
         </div>
@@ -218,37 +175,37 @@
       <section id="rsvp" class="section rsvp reveal">
         <div class="container rsvp-shell">
           <div class="rsvp-copy">
-            <p class="numbering">07 / 08</p>
-            <h2>Будем рады видеть вас</h2>
-            <p>Пожалуйста, подтвердите своё присутствие до 1 сентября.</p>
+            <p class="numbering">07 <span>—</span> Ваш ответ</p>
+            <p class="eyebrow">До встречи осталось совсем немного</p>
+            <h2>Будете с нами?</h2>
+            <p class="rsvp-description">Пожалуйста, расскажите, сможете ли вы разделить этот день с нами. Будем ждать ваш ответ до 1 сентября.</p>
+            <p class="rsvp-date">19 сентября 2026 <span>·</span> Rosewood Manor</p>
           </div>
-
           <form class="rsvp-form" id="rsvp-form">
+            <div class="form-heading"><span>Анкета гостя</span><span>01 / 03</span></div>
             <div class="field-group">
-              <label for="name">Имя и фамилия</label>
-              <input id="name" name="name" type="text" placeholder="Анна Петрова" required />
+              <label for="name">Ваше имя и фамилия</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
             </div>
-
-            <div class="field-group inline">
-              <label>Будете ли вы присутствовать?</label>
-              <div class="radio-row">
-                <label><input type="radio" name="attendance" value="yes" checked /> Да</label>
-                <label><input type="radio" name="attendance" value="no" /> К сожалению, нет</label>
+            <fieldset class="field-group attendance-group">
+              <legend>Сможете присутствовать?</legend>
+              <div class="attendance-options">
+                <label class="attendance-option"><input type="radio" name="attendance" value="yes" checked /><span>С радостью буду</span></label>
+                <label class="attendance-option"><input type="radio" name="attendance" value="no" /><span>К сожалению, нет</span></label>
               </div>
+            </fieldset>
+            <div class="field-group" data-guest-count>
+              <label for="guests">Сколько вас будет?</label>
+              <input id="guests" name="guests" type="number" min="1" max="8" value="2" inputmode="numeric" />
+              <span class="field-hint">Укажите общее количество гостей в вашей компании.</span>
             </div>
-
             <div class="field-group">
-              <label for="guests">Количество гостей</label>
-              <input id="guests" name="guests" type="number" min="1" max="8" value="2" />
+              <label for="comment">Пожелания или комментарий <span class="optional">(необязательно)</span></label>
+              <textarea id="comment" name="comment" rows="3"></textarea>
             </div>
-
-            <div class="field-group">
-              <label for="comment">Комментарий или пожелания</label>
-              <textarea id="comment" name="comment" rows="4" placeholder="Напишите, если у вас есть особые пожелания"></textarea>
-            </div>
-
-            <button type="submit" class="submit-btn">Отправить ответ</button>
-            <p class="form-status" aria-live="polite"></p>
+            <button type="submit" class="submit-btn">Отправить ответ <span aria-hidden="true">↗</span></button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+            <p class="form-demo-note">Демонстрационная форма: ответы пока не отправляются.</p>
           </form>
         </div>
       </section>
@@ -256,19 +213,20 @@
 
     <footer class="site-footer">
       <div class="container footer-shell">
-        <p class="numbering">08 / 08</p>
-        <h2>Анна <span>&amp;</span> Михаил</h2>
-        <p class="footer-date">19 сентября 2026</p>
-        <p class="signature">С любовью и предвкушением встречи</p>
-        <img src="assets/botanical-branch.png" alt="" class="footer-branch" />
+        <p class="footer-kicker">The Quiet Garden</p>
+        <h2>Анна <span>&</span> Михаил</h2>
+        <p class="footer-date">19 сентября 2026 · Окская долина</p>
+        <div class="footer-rule" aria-hidden="true"></div>
+        <p class="signature">Будем счастливы разделить этот день с вами</p>
+        <img src="assets/botanical-branch.png" alt="" class="footer-branch" loading="lazy" />
+        <p class="numbering footer-number">08 / 08</p>
       </div>
     </footer>
 
     <div class="lightbox" id="lightbox" aria-hidden="true">
-      <button class="lightbox-close" type="button" aria-label="Закрыть">×</button>
-      <img src="" alt="Увеличенное изображение" />
+      <button class="lightbox-close" type="button" aria-label="Закрыть фотографию">×</button>
+      <img src="" alt="" />
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
