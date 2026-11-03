@@ -217,6 +217,10 @@ p {
   background-position: center 48%;
   transform: scale(1.025);
   animation: heroImageIn 1.4s ease both;
+
+  @media (max-width: 760px) {
+    background-position: 85% 48%;
+  }
 }
 
 .hero-backdrop {
@@ -1241,7 +1245,6 @@ p {
   }
 
   .main-nav {
-    justify-content: flex-start;
     gap: 1.2rem;
     padding-bottom: 0.15rem;
   }
