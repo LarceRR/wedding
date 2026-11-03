@@ -197,7 +197,6 @@ p {
 /* Hero */
 .hero {
   min-height: min(900px, calc(100svh - var(--header-height)));
-  min-height: min(900px, calc(100vh - var(--header-height)));
   display: grid;
   align-items: stretch;
   overflow: hidden;
@@ -1114,12 +1113,10 @@ p {
 
   .hero {
     min-height: min(780px, calc(100svh - var(--header-height)));
-    min-height: min(780px, calc(100vh - var(--header-height)));
   }
 
   .hero-content {
     min-height: min(700px, calc(100svh - var(--header-height) - 4rem));
-    min-height: min(700px, calc(100vh - var(--header-height) - 4rem));
   }
 
   .hero h1 {
